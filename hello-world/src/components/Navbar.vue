@@ -20,7 +20,7 @@
             <v-icon class="teal--text">{{link.icon}}</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
-            <v-list-tile-title class="teal--text">Dashboard</v-list-tile-title>
+            <v-list-tile-title class="teal--text">{{link.text}}</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>
@@ -37,6 +37,7 @@ export default {
         {icon: 'dashboard', text: 'Dashboard', route: '/'},
         {icon: 'folder', text: 'My Projects', route: '/projects'},
         {icon: 'person', text: 'Team', route: '/team'},
+        {icon: 'dashboard', text: 'altair', route: '/altair'}
       ]
     };
   }
