@@ -10,22 +10,10 @@
       <v-icon>favorite</v-icon>
     </v-btn>
 
-<div id="vis"></div>
-
-
-
-
-
-
+    <div id="vis"></div>
   </div>
 </template>
 
 <script>
-// import HelloWorld from "../components/HelloWorld";
-
-export default {
-  // components: {
-  //   HelloWorld
-  // }
-};
+export default {};
 </script>

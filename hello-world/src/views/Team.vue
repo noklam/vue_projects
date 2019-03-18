@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>About</h1>
+  <div class="team">
+    <h1>Teams</h1>
   </div>
 </template>
 
