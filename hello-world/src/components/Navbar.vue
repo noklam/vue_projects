@@ -4,7 +4,7 @@
       <v-toolbar-side-icon class="grey--text" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title class="text-uppercase grey--text">
         <span class="font-weight-light">Fake</span>
-        <span>Data Scientist</span>
+        <span>Dashboard</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn flat color="grey">
@@ -37,7 +37,8 @@ export default {
         {icon: 'dashboard', text: 'Dashboard', route: '/'},
         {icon: 'folder', text: 'My Projects', route: '/projects'},
         {icon: 'person', text: 'Team', route: '/team'},
-        {icon: 'dashboard', text: 'altair', route: '/altair'}
+        {icon: 'dashboard', text: 'altair', route: '/altair'},
+        {icon: 'dashboard', text: 'altair-bar', route: '/altair-bar'}
       ]
     };
   }

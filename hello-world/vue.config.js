@@ -44,7 +44,7 @@ module.exports = {
   // Webpack dev server
   devServer: {
       host: "localhost",
-      port: 8081,
+      port: 8080,
       https: false,
       open: true,
     proxy: {
@@ -52,7 +52,13 @@ module.exports = {
         target: 'http://localhost:5000',
         ws: true,
         changeOrigin: true
+      },
+      '^/vega-example-bar': {
+        target: 'http://localhost:5000',
+        ws: true,
+        changeOrigin: true
       }
+
     }
   }
   }

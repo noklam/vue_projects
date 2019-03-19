@@ -29,7 +29,7 @@ export default new Router({
     {
       path: '/team',
       name: 'team',
-      component: () => import( './views/Team.vue')
+      component: () => import('./views/Team.vue')
     },
     {
       path: '/about',
@@ -37,7 +37,7 @@ export default new Router({
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import( './views/About.vue')
+      component: () => import('./views/About.vue')
     },
     {
       path: '/button',
@@ -48,8 +48,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Button.vue')
     },
 
-    {path: '/altair',
-     name: 'altair',
-     component: () => import(/* webpackChunkName: "about" */ './views/altair.vue')}
+    {
+      path: '/altair',
+      name: 'altair',
+      component: () => import(/* webpackChunkName: "about" */ './views/altair.vue')
+    },
+    {path: '/altair-bar',
+    name: 'altair-bar',
+    component: () => import(/* webpackChunkName: "about" */ './views/altair-bar.vue')
+   }
   ]
 })
