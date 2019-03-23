@@ -2,34 +2,26 @@
   <div class="dashboard">
     <h1 class="subheading grey--text">Dashboard</h1>
     <v-container class="my-5">
-      <v-layout row wrap>
-        <!-- To make block start on new line if space is full -->
-        <v-flex xs12 md6>
-          <!--Let element become dynamic -->
-          <v-btn outline block class="primary">1</v-btn>
-        </v-flex>
-
-        <v-flex xs4 md2>
-          <v-btn outline block class="primary">2</v-btn>
-        </v-flex>
-        <v-flex xs4 md2>
-          <v-btn outline block class="primary">2</v-btn>
-        </v-flex>
-        <v-flex xs4 md2>
-          <v-btn outline block class="primary">2</v-btn>
-        </v-flex>
-      </v-layout>
-      <v-layout row wrap justify-space-around>
-        <v-flex xs4 md3>
-          <v-btn outline block class="success">1</v-btn>
-        </v-flex>
-        <v-flex xs4 md3>
-          <v-btn outline block class="success">1</v-btn>
-        </v-flex>
-        <v-flex xs4 md3>
-          <v-btn outline block class="success">1</v-btn>
-        </v-flex>
-      </v-layout>
+      <v-card flat class="pa-3">
+        <v-layout row wrap>
+          <v-flex xs12 md6>
+            <div class="caption grey--text">Project Title</div>
+            <div>Create a new Website</div>
+          </v-flex>
+          <v-flex xs6 sm4 md2>
+            <div class="caption grey--text">Person</div>
+            <div>The Net Nijga</div>
+          </v-flex>
+          <v-flex  xs6 sm4 md2>
+            <div class="caption grey--text">Due by</div>
+            <div>Create a new Website</div>
+          </v-flex>
+          <v-flex  xs6 sm4 md2>
+            <div class="caption grey--text">Status</div>
+            <div>Almost Done?</div>
+          </v-flex>
+        </v-layout>
+      </v-card>
     </v-container>
   </div>
 </template>
